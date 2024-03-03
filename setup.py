@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name="pig",
+setup(name="analytics",
 	version="0.1",
 	description="analytics functions",
 	url="https://github.com/AkinariHashimoto/dataAnalyticsFunctions",
