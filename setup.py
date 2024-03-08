@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(name="analytics",
+setup(name="dataAnalyticsFunctions",
 	version="0.1",
 	description="analytics functions",
 	url="https://github.com/AkinariHashimoto/dataAnalyticsFunctions",
