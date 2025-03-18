@@ -1,2 +1,1 @@
-from .function import hello
-from .function import columnsCheck
+from . import function

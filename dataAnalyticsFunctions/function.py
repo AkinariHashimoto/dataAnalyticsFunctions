@@ -10,19 +10,19 @@ import seaborn as sns
 #from sklearn.model_selection import train_test_split
 #from sklearn.model_selection import KFold
 
-def columnsCheck(): 
-    #nullチェック
-    def nullCheck(df):
-        print("欠損値を含むカラム")
-        for c in df.columns:
-            if df[c].isnull().sum() != 0:
-                print(c + "　：　" + str(df[c].isnull().sum()))
 
-    #カラムの型
-        def columnsType(df):
-            print("カラムの型")
-            for c in df.columns:
-                print(c + "　：　" + str(df[c].dtypes))
+#nullチェック
+def nullCheck(df):
+    print("欠損値を含むカラム")
+    for c in df.columns:
+        if df[c].isnull().sum() != 0:
+            print(c + "　：　" + str(df[c].isnull().sum()))
+
+#カラムの型
+def columnsType(df):
+    print("カラムの型")
+    for c in df.columns:
+        print(c + "　：　" + str(df[c].dtypes))
 
 #数値のみカラムの相関
 def corr(df, x, y):
