@@ -6,7 +6,9 @@ setup(
     packages=find_packages(),
     install_requires=[
         "numpy",
-        "pandas"
+        "pandas",
+        "matplotlib.pyplot",
+        "seaborn"
     ],
     author="Akinari Hashimoto",
     author_email="akinari020637@gmail.com",
