@@ -7,7 +7,7 @@ setup(
     install_requires=[
         "numpy",
         "pandas",
-        "matplotlib.pyplot",
+        "matplotlib",
         "seaborn"
     ],
     author="Akinari Hashimoto",
