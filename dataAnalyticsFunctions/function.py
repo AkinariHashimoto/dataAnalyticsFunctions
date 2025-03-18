@@ -1,12 +1,12 @@
 def hello():
-    return "Hello from my_package!"
+    return "Hello from analytics!"
 
-'''
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy import stats
+#from scipy import stats
 #from sklearn.model_selection import train_test_split
 #from sklearn.model_selection import KFold
 
@@ -37,5 +37,4 @@ def corr(df, x, y):
   plt.title('Correlation Matrix')
   plt.show()
 
-  '''
 
