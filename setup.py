@@ -8,7 +8,8 @@ setup(
         "numpy",
         "pandas",
         "matplotlib",
-        "seaborn"
+        "seaborn",
+        "StandardScaler"
     ],
     author="Akinari Hashimoto",
     author_email="akinari020637@gmail.com",
