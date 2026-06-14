@@ -9,7 +9,7 @@ setup(
         "pandas",
         "matplotlib",
         "seaborn",
-        "StandardScaler"
+        "scikit-learn"
     ],
     author="Akinari Hashimoto",
     author_email="akinari020637@gmail.com",
